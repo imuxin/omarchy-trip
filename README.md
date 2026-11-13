@@ -18,9 +18,9 @@
   - 在 `foot.ini` 中配置 `Mod4+k` 发送 `Ctrl+L`（`\x0c`）清除终端上下文
 
 ### 🇨🇳 输入法（`input-method/`）
-- [Fcitx5 中文输入法安装与配置](input-method/fcitx5-chinese.md)
-  - 已安装的 `fcitx5` 及中文拼音/词库包
-  - 输入法配置、`omarchy` 主题与 `Cmd/Super + Space` 切换联动
+- [Fcitx5 中文输入法安装与切换为 WowType](input-method/fcitx5-chinese.md)
+  - 从 `fcitx5-chinese-addons` 切换为 `WowType` 拼音引擎及卸载旧拼音包
+  - 输入法配置、`omarchy-fcitx5.service` 托管与 `Cmd/Super + Space` 切换联动
 
 ## 核心涉及的配置文件
 
