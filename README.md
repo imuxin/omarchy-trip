@@ -22,6 +22,12 @@
   - 从 `fcitx5-chinese-addons` 切换为 `WowType` 拼音引擎及卸载旧拼音包
   - 输入法配置、`omarchy-fcitx5.service` 托管与 `Cmd/Super + Space` 切换联动
 
+### 🧩 Shell 与顶栏（`shell/`）
+- [顶栏组件管理与移除 Agents 订阅面板（`omarchy.agents`）](shell/bar-widgets.md)
+  - Omarchy Shell 顶栏布局配置与 `bar-widget` 插件启用/禁用机制
+  - 通过 `omarchy plugin disable omarchy.agents` 从顶栏移除本地订阅用量面板
+  - 查看插件状态、恢复组件及调整顶栏分区顺序的常用命令
+
 ## 核心涉及的配置文件
 
 | 用途 | 配置文件路径 |
@@ -31,3 +37,5 @@
 | Hyprland 个人快捷键覆盖 | `~/.config/hypr/bindings.lua` |
 | Foot 终端配置 | `~/.config/foot/foot.ini` |
 | Fcitx5 主配置与输入法列表 | `~/.config/fcitx5/config`、`~/.config/fcitx5/profile` |
+| Omarchy Shell 与顶栏布局配置 | `~/.config/omarchy/shell.json` |
+| 系统级 Omarchy Shell 默认模板（只读参考） | `/usr/share/omarchy/config/omarchy/shell.json` |
